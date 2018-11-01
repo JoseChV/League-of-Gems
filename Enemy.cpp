@@ -3,6 +3,7 @@
 //
 
 #include "Enemy.h"
+#include "SoldierManager.h"
 
 
 int Enemy::getGene(int i) {
@@ -12,6 +13,13 @@ void Enemy::setGene(int i, int value) {
     this->genes[i] = value;
 }
 
+void Enemy::recieveDamage(int damage) {
+    damage = damage - this->dmgReduction;
+    this->hp -= damage;
+    if(this->hp <= 0){
+        SoldierManager::getInstance()->removeDeadEnemy(this->ID);
+    }
+}
 
 void Enemy::searchAndDestroy() {
     /*if (revisar arriba){

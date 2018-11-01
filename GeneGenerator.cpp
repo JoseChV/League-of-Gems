@@ -60,15 +60,8 @@ void GeneGenerator::newBreed(int *fatherGenes, int *motherGenes) {
                 newGenes[i] = currentGenes[i];
             }
         }
-
-        for (int i = 0; i < 4; i++) {
-            std::cout << currentGenes[i] << std::endl;
-        }
-
     }
-    for (int i = 0; i < 4; i++) {
-        std::cout << newGenes[i] << std::endl;
-    }
+
 
 }
 int GeneGenerator::getGeneScore(int *array) {

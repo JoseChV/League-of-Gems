@@ -3,10 +3,9 @@
 //
 
 #include "Soldier.h"
-void Soldier::recieveDamage(int damage){
-    damage = damage - this->dmgReduction;
-    this->hp -= damage;
-}
+#include "SoldierManager.h"
+
+
 void Soldier::dealDamage(Soldier* target)  {
     if(this->attCounter%this->attSpeed == 0) {
         target->recieveDamage(this->attack);

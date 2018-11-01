@@ -14,6 +14,8 @@ public:
     Ally():Soldier(10,10,10,10){}
 
     void searchAndDestroy();
+
+    void recieveDamage(int damage);
 };
 
 

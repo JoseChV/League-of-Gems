@@ -26,6 +26,8 @@ public:
     void setGene(int i, int value);
 
     void searchAndDestroy();
+
+    void recieveDamage(int damage);
 };
 
 

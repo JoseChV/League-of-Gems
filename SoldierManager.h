@@ -11,6 +11,9 @@
 
 class SoldierManager {
 private:
+    static SoldierManager* instance;
+    SoldierManager() = default;
+
     GeneGenerator* generator = new GeneGenerator();
 
     int mainGene1[4] = {2,1,3,0};
@@ -22,6 +25,8 @@ private:
 
 
 public:
+
+    static SoldierManager* getInstance();
 
     LinkedList* enemyList = new LinkedList();
     LinkedList* allyList = new LinkedList();

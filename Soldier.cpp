@@ -7,12 +7,25 @@
 
 
 void Soldier::dealDamage(Soldier* target)  {
-    if(this->attCounter%this->attSpeed == 0) {
+    if(lifeSteal){
+        this->recieveDamage(-(this->attack - target->dmgReduction));
+        lsCounter--;
+        if(lsCounter == 0){
+            lifeSteal = false;
+        }
+    }
+    if(reflectDmg){
+        this->recieveDamage((this->attack - target->dmgReduction));
+        reflectDmgCounter--;
+        if(reflectDmgCounter == 0){
+            reflectDmg = false;
+        }
+    }
+    if (this->attCounter % this->attSpeed == 0) {
         target->recieveDamage(this->attack);
         this->attCounter = 0;
     }
-    this->attCounter ++;
-
+    this->attCounter++;
 
 }
 void Soldier::setID(int ID) {

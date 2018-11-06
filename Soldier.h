@@ -11,8 +11,10 @@ class Soldier {
 public:
 
 
-    int attack, hp, attCounter = 0, attSpeed, dmgReduction, ID;
+    int attack, hp, attCounter = 0, attSpeed, dmgReduction, ID, invCounter = 0, lsCounter = 0, reflectDmgCounter = 0;
     int i,j;
+    bool invincible = false, lifeSteal = false, reflectDmg = false;
+
 
     Soldier(int attack, int hp, int attSpeed, int dmgReduction){
         this->attack = 80 + attack * 29;
@@ -29,6 +31,7 @@ public:
     void searchAndDestroy();
 
     void setID(int ID);
+
 };
 
 

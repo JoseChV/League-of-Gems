@@ -46,9 +46,6 @@ void SoldierManager::newLists() {
     for(int i = 0; i<15; i++){
         allyList->insert(new Ally());
     }
-    std::cout<<"attack 1: "<<mainGene1[0]<<std::endl;
-    std::cout<<"attack 2: "<<mainGene2[0]<<std::endl;
-    std::cout<<"attack 3: "<<mainGene3[0]<<std::endl;
     for(int i = 0; i < maxSize; i++){
         enemyList->insert(new Enemy(this->mainGene1));
         enemyList->insert(new Enemy(this->mainGene2));
@@ -71,13 +68,49 @@ void SoldierManager::removeDeadEnemy(int enemyID) {
 }
 
 void SoldierManager::update() {
-    for(Node* n = allyList->head; n!= nullptr; n = n->getNext()){
+
+    if (doubleAttSpeed) {
+        if (doubleAttSpeedCounter <= 0) {
+            doubleAttSpeed = false;
+
+            for (Node *n = allyList->head; n != nullptr; n = n->getNext()) {
+                n->getSoldier()->attSpeed *= 2;
+            }
+        }
+        doubleAttSpeedCounter--;
+
+    }
+
+    if(doubleAttack){
+        if (doubleAttackCounter <= 0) {
+            doubleAttack = false;
+
+            for (Node *n = allyList->head; n != nullptr; n = n->getNext()) {
+                n->getSoldier()->attack /= 2;
+            }
+        }
+        doubleAttackCounter--;
+    }
+    for (Node *n = allyList->head; n != nullptr; n = n->getNext()) {
         n->getSoldier()->searchAndDestroy();
     }
-    for(Node* n = enemyList->head; n!= nullptr; n = n->getNext()){
+    for (Node *n = enemyList->head; n != nullptr; n = n->getNext()) {
         n->getSoldier()->searchAndDestroy();
     }
+
 }
+
 void SoldierManager::setMaxEnemies(int max) {
     this->maxEnemies = max;
+}
+
+void SoldierManager::callReinforcements() {
+    this->allyList->insert(new Ally());
+    this->allyList->insert(new Ally());
+}
+
+void SoldierManager::kill(){
+    Node* n1 = enemyList->head;
+    enemyList->deleteNode(n1->getSoldier()->ID);
+    enemyList->deleteNode(n1->getNext()->getSoldier()->ID);
 }

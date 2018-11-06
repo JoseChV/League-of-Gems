@@ -22,9 +22,10 @@ private:
 
     bool firstGeneration = true;
 
-
-
 public:
+
+    int doubleAttSpeedCounter = 0, doubleAttackCounter = 0;
+    bool doubleAttSpeed = false, doubleAttack = false;
 
     static SoldierManager* getInstance();
 
@@ -42,6 +43,10 @@ public:
     void newLists();
 
     void setMaxEnemies(int max);
+
+    void callReinforcements();
+
+    void kill();
 };
 
 

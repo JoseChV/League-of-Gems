@@ -25,25 +25,20 @@ void LinkedList::print() {
         std::cout<<"empty list"<<std::endl;
     }else {
         while (temp->getNext() != nullptr) {
-            std::cout << temp->getSoldier()->attack << std::endl;
+            std::cout << temp->getSoldier()->hp << std::endl;
             temp = temp->getNext();
         }
-        std::cout << temp->getSoldier()->attack << std::endl;
+        std::cout << temp->getSoldier()->hp << std::endl;
     }
 }
 void LinkedList::deleteNode(int ID)  {
     Node *actual = this->head;
-    std::cout<<"ID: "<<actual->getID()<<std::endl;
     if(actual != nullptr){
         if(actual->getID()==ID){
-            std::cout<<"deleted node :"<<ID<<std::endl;
             this->head = actual->getNext();
-            std::cout<<"next: "<<this->head<<std::endl;
         }else{
-            std::cout<<"false"<<std::endl;
             while (actual->getNext() != nullptr) {
                 if(actual->getNext()->getID() == ID){
-                    std::cout<<"deleted node :"<<ID<<std::endl;
                     actual->setNext(actual->getNext()->getNext());
 
                 }

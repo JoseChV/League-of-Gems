@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Ba/CLionProjects/LeagueOfGems/main.cpp
+iostream
+-
+allegro5/allegro_native_dialog.h
+-
+allegro5/allegro.h
+-
+allegro5/allegro_image.h
+-
+vector
+-
+

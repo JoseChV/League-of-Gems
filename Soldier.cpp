@@ -32,6 +32,11 @@ void Soldier::setID(int ID) {
     this->ID = ID;
 }
 
+void Soldier::setPosition(int i, int j) {
+    this->i = i;
+    this->j = j;
+}
+
 void Soldier::searchAndDestroy() {
 
 }

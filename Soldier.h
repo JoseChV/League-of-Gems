@@ -32,6 +32,8 @@ public:
 
     void setID(int ID);
 
+    void setPosition(int i, int j);
+
 };
 
 

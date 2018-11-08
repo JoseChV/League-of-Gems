@@ -122,6 +122,222 @@ LeagueOfGems/fast:
 	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/build
 .PHONY : LeagueOfGems/fast
 
+Ally.obj: Ally.cpp.obj
+
+.PHONY : Ally.obj
+
+# target to build an object file
+Ally.cpp.obj:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/Ally.cpp.obj
+.PHONY : Ally.cpp.obj
+
+Ally.i: Ally.cpp.i
+
+.PHONY : Ally.i
+
+# target to preprocess a source file
+Ally.cpp.i:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/Ally.cpp.i
+.PHONY : Ally.cpp.i
+
+Ally.s: Ally.cpp.s
+
+.PHONY : Ally.s
+
+# target to generate assembly for a file
+Ally.cpp.s:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/Ally.cpp.s
+.PHONY : Ally.cpp.s
+
+Enemy.obj: Enemy.cpp.obj
+
+.PHONY : Enemy.obj
+
+# target to build an object file
+Enemy.cpp.obj:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/Enemy.cpp.obj
+.PHONY : Enemy.cpp.obj
+
+Enemy.i: Enemy.cpp.i
+
+.PHONY : Enemy.i
+
+# target to preprocess a source file
+Enemy.cpp.i:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/Enemy.cpp.i
+.PHONY : Enemy.cpp.i
+
+Enemy.s: Enemy.cpp.s
+
+.PHONY : Enemy.s
+
+# target to generate assembly for a file
+Enemy.cpp.s:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/Enemy.cpp.s
+.PHONY : Enemy.cpp.s
+
+GeneGenerator.obj: GeneGenerator.cpp.obj
+
+.PHONY : GeneGenerator.obj
+
+# target to build an object file
+GeneGenerator.cpp.obj:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/GeneGenerator.cpp.obj
+.PHONY : GeneGenerator.cpp.obj
+
+GeneGenerator.i: GeneGenerator.cpp.i
+
+.PHONY : GeneGenerator.i
+
+# target to preprocess a source file
+GeneGenerator.cpp.i:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/GeneGenerator.cpp.i
+.PHONY : GeneGenerator.cpp.i
+
+GeneGenerator.s: GeneGenerator.cpp.s
+
+.PHONY : GeneGenerator.s
+
+# target to generate assembly for a file
+GeneGenerator.cpp.s:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/GeneGenerator.cpp.s
+.PHONY : GeneGenerator.cpp.s
+
+Player.obj: Player.cpp.obj
+
+.PHONY : Player.obj
+
+# target to build an object file
+Player.cpp.obj:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/Player.cpp.obj
+.PHONY : Player.cpp.obj
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/Player.cpp.s
+.PHONY : Player.cpp.s
+
+Soldier.obj: Soldier.cpp.obj
+
+.PHONY : Soldier.obj
+
+# target to build an object file
+Soldier.cpp.obj:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/Soldier.cpp.obj
+.PHONY : Soldier.cpp.obj
+
+Soldier.i: Soldier.cpp.i
+
+.PHONY : Soldier.i
+
+# target to preprocess a source file
+Soldier.cpp.i:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/Soldier.cpp.i
+.PHONY : Soldier.cpp.i
+
+Soldier.s: Soldier.cpp.s
+
+.PHONY : Soldier.s
+
+# target to generate assembly for a file
+Soldier.cpp.s:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/Soldier.cpp.s
+.PHONY : Soldier.cpp.s
+
+SoldierList.obj: SoldierList.cpp.obj
+
+.PHONY : SoldierList.obj
+
+# target to build an object file
+SoldierList.cpp.obj:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/SoldierList.cpp.obj
+.PHONY : SoldierList.cpp.obj
+
+SoldierList.i: SoldierList.cpp.i
+
+.PHONY : SoldierList.i
+
+# target to preprocess a source file
+SoldierList.cpp.i:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/SoldierList.cpp.i
+.PHONY : SoldierList.cpp.i
+
+SoldierList.s: SoldierList.cpp.s
+
+.PHONY : SoldierList.s
+
+# target to generate assembly for a file
+SoldierList.cpp.s:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/SoldierList.cpp.s
+.PHONY : SoldierList.cpp.s
+
+SoldierManager.obj: SoldierManager.cpp.obj
+
+.PHONY : SoldierManager.obj
+
+# target to build an object file
+SoldierManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/SoldierManager.cpp.obj
+.PHONY : SoldierManager.cpp.obj
+
+SoldierManager.i: SoldierManager.cpp.i
+
+.PHONY : SoldierManager.i
+
+# target to preprocess a source file
+SoldierManager.cpp.i:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/SoldierManager.cpp.i
+.PHONY : SoldierManager.cpp.i
+
+SoldierManager.s: SoldierManager.cpp.s
+
+.PHONY : SoldierManager.s
+
+# target to generate assembly for a file
+SoldierManager.cpp.s:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/SoldierManager.cpp.s
+.PHONY : SoldierManager.cpp.s
+
+SoldierNode.obj: SoldierNode.cpp.obj
+
+.PHONY : SoldierNode.obj
+
+# target to build an object file
+SoldierNode.cpp.obj:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/SoldierNode.cpp.obj
+.PHONY : SoldierNode.cpp.obj
+
+SoldierNode.i: SoldierNode.cpp.i
+
+.PHONY : SoldierNode.i
+
+# target to preprocess a source file
+SoldierNode.cpp.i:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/SoldierNode.cpp.i
+.PHONY : SoldierNode.cpp.i
+
+SoldierNode.s: SoldierNode.cpp.s
+
+.PHONY : SoldierNode.s
+
+# target to generate assembly for a file
+SoldierNode.cpp.s:
+	$(MAKE) -f CMakeFiles\LeagueOfGems.dir\build.make CMakeFiles/LeagueOfGems.dir/SoldierNode.cpp.s
+.PHONY : SoldierNode.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +374,30 @@ help:
 	@echo ... LeagueOfGems
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Ally.obj
+	@echo ... Ally.i
+	@echo ... Ally.s
+	@echo ... Enemy.obj
+	@echo ... Enemy.i
+	@echo ... Enemy.s
+	@echo ... GeneGenerator.obj
+	@echo ... GeneGenerator.i
+	@echo ... GeneGenerator.s
+	@echo ... Player.obj
+	@echo ... Player.i
+	@echo ... Player.s
+	@echo ... Soldier.obj
+	@echo ... Soldier.i
+	@echo ... Soldier.s
+	@echo ... SoldierList.obj
+	@echo ... SoldierList.i
+	@echo ... SoldierList.s
+	@echo ... SoldierManager.obj
+	@echo ... SoldierManager.i
+	@echo ... SoldierManager.s
+	@echo ... SoldierNode.obj
+	@echo ... SoldierNode.i
+	@echo ... SoldierNode.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

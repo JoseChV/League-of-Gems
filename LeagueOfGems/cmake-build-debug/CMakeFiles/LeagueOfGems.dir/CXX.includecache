@@ -6,6 +6,44 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Ba/CLionProjects/LeagueOfGems/Enemy.h
+Soldier.h
+C:/Users/Ba/CLionProjects/LeagueOfGems/Soldier.h
+
+C:/Users/Ba/CLionProjects/LeagueOfGems/GeneGenerator.h
+Enemy.h
+C:/Users/Ba/CLionProjects/LeagueOfGems/Enemy.h
+ctime
+-
+iostream
+-
+
+C:/Users/Ba/CLionProjects/LeagueOfGems/Player.h
+SoldierManager.h
+C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierManager.h
+
+C:/Users/Ba/CLionProjects/LeagueOfGems/Soldier.h
+allegro5/allegro.h
+-
+allegro5/allegro_image.h
+-
+
+C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierList.h
+iostream
+-
+SoldierNode.h
+C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierNode.h
+
+C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierManager.h
+SoldierList.h
+C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierList.h
+GeneGenerator.h
+C:/Users/Ba/CLionProjects/LeagueOfGems/GeneGenerator.h
+
+C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierNode.h
+Soldier.h
+C:/Users/Ba/CLionProjects/LeagueOfGems/Soldier.h
+
 C:/Users/Ba/CLionProjects/LeagueOfGems/main.cpp
 iostream
 -
@@ -15,6 +53,12 @@ allegro5/allegro.h
 -
 allegro5/allegro_image.h
 -
+SoldierManager.h
+C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierManager.h
+Soldier.h
+C:/Users/Ba/CLionProjects/LeagueOfGems/Soldier.h
+Player.h
+C:/Users/Ba/CLionProjects/LeagueOfGems/Player.h
 vector
 -
 

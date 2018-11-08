@@ -4,6 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Ba/CLionProjects/LeagueOfGems/Ally.cpp" "C:/Users/Ba/CLionProjects/LeagueOfGems/cmake-build-debug/CMakeFiles/LeagueOfGems.dir/Ally.cpp.obj"
+  "C:/Users/Ba/CLionProjects/LeagueOfGems/Enemy.cpp" "C:/Users/Ba/CLionProjects/LeagueOfGems/cmake-build-debug/CMakeFiles/LeagueOfGems.dir/Enemy.cpp.obj"
+  "C:/Users/Ba/CLionProjects/LeagueOfGems/GeneGenerator.cpp" "C:/Users/Ba/CLionProjects/LeagueOfGems/cmake-build-debug/CMakeFiles/LeagueOfGems.dir/GeneGenerator.cpp.obj"
+  "C:/Users/Ba/CLionProjects/LeagueOfGems/Player.cpp" "C:/Users/Ba/CLionProjects/LeagueOfGems/cmake-build-debug/CMakeFiles/LeagueOfGems.dir/Player.cpp.obj"
+  "C:/Users/Ba/CLionProjects/LeagueOfGems/Soldier.cpp" "C:/Users/Ba/CLionProjects/LeagueOfGems/cmake-build-debug/CMakeFiles/LeagueOfGems.dir/Soldier.cpp.obj"
+  "C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierList.cpp" "C:/Users/Ba/CLionProjects/LeagueOfGems/cmake-build-debug/CMakeFiles/LeagueOfGems.dir/SoldierList.cpp.obj"
+  "C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierManager.cpp" "C:/Users/Ba/CLionProjects/LeagueOfGems/cmake-build-debug/CMakeFiles/LeagueOfGems.dir/SoldierManager.cpp.obj"
+  "C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierNode.cpp" "C:/Users/Ba/CLionProjects/LeagueOfGems/cmake-build-debug/CMakeFiles/LeagueOfGems.dir/SoldierNode.cpp.obj"
   "C:/Users/Ba/CLionProjects/LeagueOfGems/main.cpp" "C:/Users/Ba/CLionProjects/LeagueOfGems/cmake-build-debug/CMakeFiles/LeagueOfGems.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

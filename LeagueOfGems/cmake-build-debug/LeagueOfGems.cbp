@@ -80,6 +80,54 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/Ally.cpp">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/Ally.h">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/Enemy.cpp">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/Enemy.h">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/GeneGenerator.cpp">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/GeneGenerator.h">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/Player.cpp">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/Player.h">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/Soldier.cpp">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/Soldier.h">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierList.cpp">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierList.h">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierManager.cpp">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierManager.h">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierNode.cpp">
+			<Option target="LeagueOfGems"/>
+		</Unit>
+		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/SoldierNode.h">
+			<Option target="LeagueOfGems"/>
+		</Unit>
 		<Unit filename="C:/Users/Ba/CLionProjects/LeagueOfGems/main.cpp">
 			<Option target="LeagueOfGems"/>
 		</Unit>

@@ -69,19 +69,139 @@ CMakeFiles/LeagueOfGems.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeagueOfGems.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ba\CLionProjects\LeagueOfGems\main.cpp -o CMakeFiles\LeagueOfGems.dir\main.cpp.s
 
+CMakeFiles/LeagueOfGems.dir/Ally.cpp.obj: CMakeFiles/LeagueOfGems.dir/flags.make
+CMakeFiles/LeagueOfGems.dir/Ally.cpp.obj: ../Ally.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ba\CLionProjects\LeagueOfGems\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LeagueOfGems.dir/Ally.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LeagueOfGems.dir\Ally.cpp.obj -c C:\Users\Ba\CLionProjects\LeagueOfGems\Ally.cpp
+
+CMakeFiles/LeagueOfGems.dir/Ally.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeagueOfGems.dir/Ally.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ba\CLionProjects\LeagueOfGems\Ally.cpp > CMakeFiles\LeagueOfGems.dir\Ally.cpp.i
+
+CMakeFiles/LeagueOfGems.dir/Ally.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeagueOfGems.dir/Ally.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ba\CLionProjects\LeagueOfGems\Ally.cpp -o CMakeFiles\LeagueOfGems.dir\Ally.cpp.s
+
+CMakeFiles/LeagueOfGems.dir/Enemy.cpp.obj: CMakeFiles/LeagueOfGems.dir/flags.make
+CMakeFiles/LeagueOfGems.dir/Enemy.cpp.obj: ../Enemy.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ba\CLionProjects\LeagueOfGems\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LeagueOfGems.dir/Enemy.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LeagueOfGems.dir\Enemy.cpp.obj -c C:\Users\Ba\CLionProjects\LeagueOfGems\Enemy.cpp
+
+CMakeFiles/LeagueOfGems.dir/Enemy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeagueOfGems.dir/Enemy.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ba\CLionProjects\LeagueOfGems\Enemy.cpp > CMakeFiles\LeagueOfGems.dir\Enemy.cpp.i
+
+CMakeFiles/LeagueOfGems.dir/Enemy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeagueOfGems.dir/Enemy.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ba\CLionProjects\LeagueOfGems\Enemy.cpp -o CMakeFiles\LeagueOfGems.dir\Enemy.cpp.s
+
+CMakeFiles/LeagueOfGems.dir/GeneGenerator.cpp.obj: CMakeFiles/LeagueOfGems.dir/flags.make
+CMakeFiles/LeagueOfGems.dir/GeneGenerator.cpp.obj: ../GeneGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ba\CLionProjects\LeagueOfGems\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LeagueOfGems.dir/GeneGenerator.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LeagueOfGems.dir\GeneGenerator.cpp.obj -c C:\Users\Ba\CLionProjects\LeagueOfGems\GeneGenerator.cpp
+
+CMakeFiles/LeagueOfGems.dir/GeneGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeagueOfGems.dir/GeneGenerator.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ba\CLionProjects\LeagueOfGems\GeneGenerator.cpp > CMakeFiles\LeagueOfGems.dir\GeneGenerator.cpp.i
+
+CMakeFiles/LeagueOfGems.dir/GeneGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeagueOfGems.dir/GeneGenerator.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ba\CLionProjects\LeagueOfGems\GeneGenerator.cpp -o CMakeFiles\LeagueOfGems.dir\GeneGenerator.cpp.s
+
+CMakeFiles/LeagueOfGems.dir/SoldierList.cpp.obj: CMakeFiles/LeagueOfGems.dir/flags.make
+CMakeFiles/LeagueOfGems.dir/SoldierList.cpp.obj: ../SoldierList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ba\CLionProjects\LeagueOfGems\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/LeagueOfGems.dir/SoldierList.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LeagueOfGems.dir\SoldierList.cpp.obj -c C:\Users\Ba\CLionProjects\LeagueOfGems\SoldierList.cpp
+
+CMakeFiles/LeagueOfGems.dir/SoldierList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeagueOfGems.dir/SoldierList.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ba\CLionProjects\LeagueOfGems\SoldierList.cpp > CMakeFiles\LeagueOfGems.dir\SoldierList.cpp.i
+
+CMakeFiles/LeagueOfGems.dir/SoldierList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeagueOfGems.dir/SoldierList.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ba\CLionProjects\LeagueOfGems\SoldierList.cpp -o CMakeFiles\LeagueOfGems.dir\SoldierList.cpp.s
+
+CMakeFiles/LeagueOfGems.dir/SoldierNode.cpp.obj: CMakeFiles/LeagueOfGems.dir/flags.make
+CMakeFiles/LeagueOfGems.dir/SoldierNode.cpp.obj: ../SoldierNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ba\CLionProjects\LeagueOfGems\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/LeagueOfGems.dir/SoldierNode.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LeagueOfGems.dir\SoldierNode.cpp.obj -c C:\Users\Ba\CLionProjects\LeagueOfGems\SoldierNode.cpp
+
+CMakeFiles/LeagueOfGems.dir/SoldierNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeagueOfGems.dir/SoldierNode.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ba\CLionProjects\LeagueOfGems\SoldierNode.cpp > CMakeFiles\LeagueOfGems.dir\SoldierNode.cpp.i
+
+CMakeFiles/LeagueOfGems.dir/SoldierNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeagueOfGems.dir/SoldierNode.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ba\CLionProjects\LeagueOfGems\SoldierNode.cpp -o CMakeFiles\LeagueOfGems.dir\SoldierNode.cpp.s
+
+CMakeFiles/LeagueOfGems.dir/Player.cpp.obj: CMakeFiles/LeagueOfGems.dir/flags.make
+CMakeFiles/LeagueOfGems.dir/Player.cpp.obj: ../Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ba\CLionProjects\LeagueOfGems\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/LeagueOfGems.dir/Player.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LeagueOfGems.dir\Player.cpp.obj -c C:\Users\Ba\CLionProjects\LeagueOfGems\Player.cpp
+
+CMakeFiles/LeagueOfGems.dir/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeagueOfGems.dir/Player.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ba\CLionProjects\LeagueOfGems\Player.cpp > CMakeFiles\LeagueOfGems.dir\Player.cpp.i
+
+CMakeFiles/LeagueOfGems.dir/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeagueOfGems.dir/Player.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ba\CLionProjects\LeagueOfGems\Player.cpp -o CMakeFiles\LeagueOfGems.dir\Player.cpp.s
+
+CMakeFiles/LeagueOfGems.dir/Soldier.cpp.obj: CMakeFiles/LeagueOfGems.dir/flags.make
+CMakeFiles/LeagueOfGems.dir/Soldier.cpp.obj: ../Soldier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ba\CLionProjects\LeagueOfGems\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/LeagueOfGems.dir/Soldier.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LeagueOfGems.dir\Soldier.cpp.obj -c C:\Users\Ba\CLionProjects\LeagueOfGems\Soldier.cpp
+
+CMakeFiles/LeagueOfGems.dir/Soldier.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeagueOfGems.dir/Soldier.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ba\CLionProjects\LeagueOfGems\Soldier.cpp > CMakeFiles\LeagueOfGems.dir\Soldier.cpp.i
+
+CMakeFiles/LeagueOfGems.dir/Soldier.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeagueOfGems.dir/Soldier.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ba\CLionProjects\LeagueOfGems\Soldier.cpp -o CMakeFiles\LeagueOfGems.dir\Soldier.cpp.s
+
+CMakeFiles/LeagueOfGems.dir/SoldierManager.cpp.obj: CMakeFiles/LeagueOfGems.dir/flags.make
+CMakeFiles/LeagueOfGems.dir/SoldierManager.cpp.obj: ../SoldierManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ba\CLionProjects\LeagueOfGems\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/LeagueOfGems.dir/SoldierManager.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LeagueOfGems.dir\SoldierManager.cpp.obj -c C:\Users\Ba\CLionProjects\LeagueOfGems\SoldierManager.cpp
+
+CMakeFiles/LeagueOfGems.dir/SoldierManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeagueOfGems.dir/SoldierManager.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ba\CLionProjects\LeagueOfGems\SoldierManager.cpp > CMakeFiles\LeagueOfGems.dir\SoldierManager.cpp.i
+
+CMakeFiles/LeagueOfGems.dir/SoldierManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeagueOfGems.dir/SoldierManager.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Ba\CLionProjects\LeagueOfGems\SoldierManager.cpp -o CMakeFiles\LeagueOfGems.dir\SoldierManager.cpp.s
+
 # Object files for target LeagueOfGems
 LeagueOfGems_OBJECTS = \
-"CMakeFiles/LeagueOfGems.dir/main.cpp.obj"
+"CMakeFiles/LeagueOfGems.dir/main.cpp.obj" \
+"CMakeFiles/LeagueOfGems.dir/Ally.cpp.obj" \
+"CMakeFiles/LeagueOfGems.dir/Enemy.cpp.obj" \
+"CMakeFiles/LeagueOfGems.dir/GeneGenerator.cpp.obj" \
+"CMakeFiles/LeagueOfGems.dir/SoldierList.cpp.obj" \
+"CMakeFiles/LeagueOfGems.dir/SoldierNode.cpp.obj" \
+"CMakeFiles/LeagueOfGems.dir/Player.cpp.obj" \
+"CMakeFiles/LeagueOfGems.dir/Soldier.cpp.obj" \
+"CMakeFiles/LeagueOfGems.dir/SoldierManager.cpp.obj"
 
 # External object files for target LeagueOfGems
 LeagueOfGems_EXTERNAL_OBJECTS =
 
 LeagueOfGems.exe: CMakeFiles/LeagueOfGems.dir/main.cpp.obj
+LeagueOfGems.exe: CMakeFiles/LeagueOfGems.dir/Ally.cpp.obj
+LeagueOfGems.exe: CMakeFiles/LeagueOfGems.dir/Enemy.cpp.obj
+LeagueOfGems.exe: CMakeFiles/LeagueOfGems.dir/GeneGenerator.cpp.obj
+LeagueOfGems.exe: CMakeFiles/LeagueOfGems.dir/SoldierList.cpp.obj
+LeagueOfGems.exe: CMakeFiles/LeagueOfGems.dir/SoldierNode.cpp.obj
+LeagueOfGems.exe: CMakeFiles/LeagueOfGems.dir/Player.cpp.obj
+LeagueOfGems.exe: CMakeFiles/LeagueOfGems.dir/Soldier.cpp.obj
+LeagueOfGems.exe: CMakeFiles/LeagueOfGems.dir/SoldierManager.cpp.obj
 LeagueOfGems.exe: CMakeFiles/LeagueOfGems.dir/build.make
 LeagueOfGems.exe: CMakeFiles/LeagueOfGems.dir/linklibs.rsp
 LeagueOfGems.exe: CMakeFiles/LeagueOfGems.dir/objects1.rsp
 LeagueOfGems.exe: CMakeFiles/LeagueOfGems.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Ba\CLionProjects\LeagueOfGems\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LeagueOfGems.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Ba\CLionProjects\LeagueOfGems\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable LeagueOfGems.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LeagueOfGems.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
